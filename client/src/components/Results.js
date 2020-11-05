@@ -1,8 +1,10 @@
+import React, { useState, useEffect } from "react";
+import API from "../utils/API";
+import { Link } from "react-router-dom";
+
 function Results() {
     return(
-        <>
-        <h1>Results go here</h1>
-        </>
+        <h1>Results</h1>
     )
 }
 
