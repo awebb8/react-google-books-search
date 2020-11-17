@@ -1,11 +1,11 @@
 import React from 'react';
-import BookCard from './BookCard';
+import BookCard from '../components/BookCard';
 
-const Results = (props) => {
+const Saved = (props) => {
     return (
         <div className="list">
             {
-                props.books.map(book => {
+                props.booksSaved.map((book) => {
                     return <BookCard
                     key={book.id}
                     id={book.id}
@@ -13,11 +13,11 @@ const Results = (props) => {
                     title={book.volumeInfo.title}
                     author={book.volumeInfo.authors}
                     description={book.volumeInfo.description}
-                    saveBook = {props.saveBook}/>
+                    />
                 })
             }
         </div>
     );
 };
 
-export default Results;
+export default Saved;

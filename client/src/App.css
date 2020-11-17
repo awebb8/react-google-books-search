@@ -29,3 +29,8 @@ nav li {
   justify-content: center;
   padding: 10px;
 }
+
+.card-container {
+  border: 1px solid black;
+  margin: 0 5% 0 5%;
+}

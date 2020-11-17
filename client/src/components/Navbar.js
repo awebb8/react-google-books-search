@@ -8,7 +8,7 @@ function Navbar() {
                 <li className="nav-item active">
                     <Link to="/search">Search</Link>
                 </li>
-                <br></br>
+                
                 <li className="nav-item active">
                     <Link to="/saved">My Saved Books</Link>
                 </li>
